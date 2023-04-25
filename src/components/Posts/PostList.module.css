@@ -1,0 +1,9 @@
+.posts__main {
+  border: 2px solid rgba(22, 12, 165, 0.733);
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
