@@ -1,10 +1,7 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Counter from "./components/Counter/Counter";
-import PostItem from "./components/Posts/PostItem";
 import PostList from "./components/Posts/PostList";
-import MyButton from "./components/UI/Buttons/MyButton";
-import MyInput from "./components/UI/Inputs/MyInput";
 import PostForm from "./components/PostForm/PostForm";
 
 function App() {
@@ -27,7 +24,7 @@ function App() {
   ]);
 
   const createPost = (newPost) => {
-    setPosts([...posts, newPost])
+    setPosts([...posts, newPost]);
   };
 
   return (
