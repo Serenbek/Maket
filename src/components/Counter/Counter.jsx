@@ -20,18 +20,19 @@ const Counter = () => {
         <h2>Счетчик</h2>
         <h3>{count}</h3>
         <div className={styles.btnMain}>
-          <button className={styles.counter__btn} onClick={increment}>
-            <AddIcon />
-          </button>
           <button className={styles.counter__btn} onClick={decrement}>
             <RemoveIcon />
+          </button>
+          <button className={styles.counter__btn} onClick={increment}>
+            <AddIcon />
           </button>
         </div>
       </div>
       <div className={styles.sync}>
         <h2>Управляемые компоненты</h2>
         <h3>{value}</h3>
-        <input className={styles.countInp}
+        <input
+          className={styles.countInp}
           type="text"
           value={value}
           onChange={(e) => setValue(e.target.value)}
