@@ -1,0 +1,28 @@
+.wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #0a0811;
+}
+
+.title {
+  font-size: 20px;
+  color: #7a7878;
+}
+
+.line {
+  height: 40px;
+  width: 2px;
+  border: 2px solid #7a7878;
+  margin: 0 20px;
+}
+
+.txt {
+  font-size: 20px;
+  color: #7a7878;
+}

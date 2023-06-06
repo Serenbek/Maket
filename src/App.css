@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-.App {
+.container {
   width: 80%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .post-enter {
@@ -27,4 +28,22 @@
   /* transition: opacity 500ms ease-in; */
   transform: translateX(350px);
   transition: all 500ms ease-in;
+}
+
+.navbar {
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: lightgray;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
